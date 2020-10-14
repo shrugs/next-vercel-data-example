@@ -6,12 +6,16 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "lerna run --parallel dev",
     "build": "lerna run build"
   },
   "devDependencies": {
+    "@types/node": "^14.11.8",
+    "@types/react": "^16.9.52",
     "lerna": "^3.22.1",
     "next": "9.5.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "typescript": "^4.0.3"
   }
 }
